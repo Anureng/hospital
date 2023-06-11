@@ -41,7 +41,7 @@ function Header() {
            <p className='text-2xl'>
              Enter Status
             </p>
-            <input type="text" placeholder='enter the status' onChange={(e)=>setPatientStatus(e.target.value)} className='bg-transparent outline-none'/>
+            <input type="text" placeholder='enter the number status' onChange={(e)=>setPatientStatus(e.target.value)} className='bg-transparent outline-none'/>
             <button disabled={!write} onClick={() => write?.()} className='bg-black px-1 py-2 rounded-xl text-white w-fit'>Click</button>
         </div>
         </div>
